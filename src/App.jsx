@@ -31,7 +31,9 @@ function App() {
         { path: 'contact', element: <Contact /> }
       ]
     }
-  ]);
+  ], {
+    basename: '/simple-react-website' // Replace with your repository name
+  });
 
   return (
     <RouterProvider router={myRouter} />
